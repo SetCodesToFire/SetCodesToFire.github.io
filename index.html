@@ -1,168 +1,104 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title></title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="homepage">
-		<div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan | Automation Systems Architect</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f6fa; color: #222; }
+    header { background: #111; color: #fff; padding: 40px 20px; text-align: center; }
+    h1 { margin: 0; font-size: 2.4rem; }
+    h2 { margin-top: 40px; }
+    section { max-width: 900px; margin: auto; padding: 20px; }
+    .card { background: #fff; padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .design-title { font-weight: bold; font-size: 1.2rem; }
+    .footer { text-align: center; padding: 30px 0; color: #666; }
+  </style>
+</head>
+<body>
 
-			<!-- Header -->
-				<div id="header">
+<header>
+  <h1>Rohan</h1>
+  <p>Automation Systems Architect | Senior SDET | AI-driven Engineering</p>
+</header>
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo">setCodesToFire</a></h1>
-								<hr />
-								<p>A forever learner</p>
-							</header>
-							<footer>
-								<a href="#banner" class="button circled scrolly">tap</a>
-							</footer>
-						</div>
-				</div>
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I specialize in designing large-scale automation systems, orchestration layers, 
+      and resilient test engineering frameworks. With deep experience in backend automation, 
+      distributed test architecture, cloud-native validation platforms, and end-to-end quality systems, 
+      I focus on building frameworks that scale across teams, environments, and marketplaces.
+    </p>
+    <p>
+      I am also strongly focused on AI-driven automation. I actively work on leveraging LLMs, 
+      autonomous agents, and AI-assisted quality engineering to accelerate system validation, 
+      reduce engineering effort, and introduce self-healing test ecosystems.
+    </p>
+  </div>
 
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2>Hi. <strong>Visitor</strong>.</h2>
-						<p><h6>**Quote of the day**</h6></p>
-						<p>
-							 Rolling <strong>dice</strong> repeatedly is the only way to get a six<br/>
-							 <br>
-							 <br>
-							 <strong>Projects</strong>
-						</p>
-					</header>
-				</section>
+  <h2>Portfolio: System Designs</h2>
 
-			<!-- Carousel -->
-				<section class="carousel">
-					<div class="reel">
+  <div class="card">
+    <div class="design-title">1. Distributed Orchestration Layer for Queue-Based Order Processing</div>
+    <p>
+      Designed an orchestration engine that consumes orders from SQS/Kafka, performs fan-out API calls with retries, 
+      fallbacks, circuit breakers, and consolidated response mapping. Built for high throughput and horizontal scalability.
+    </p>
+  </div>
 
-						<article>
-							<a class="image featured" href="https://htmlpreview.github.io/?https://github.com/SetCodesToFire/fraud-detection/blob/master/fraud-detection.html">
-								<img src="images/pic03.jpeg" alt=""/>
-								<header>
-									<h3>fraud-detection</h3>
-								</header>
-								<p>A credit card fraud detection project</p>
-						 </a>
-						</article>
+  <div class="card">
+    <div class="design-title">2. Unified Automation Framework for Multi-Marketplace Shadow Runs</div>
+    <p>
+      Created a modular shadow framework supporting ingestion normalization, distributed execution, and transaction-level 
+      comparisons across Axon/ARK/rACE. Introduced data filtering and configuration decoupling to reduce setup time.
+    </p>
+  </div>
 
-						<article>
-							<a class="image featured" href="https://htmlpreview.github.io/?https://github.com/SetCodesToFire/Brainify/blob/master/BoldvsT1w.html">
-								<img src="images/pic06.jpeg" alt="" />
-								<header>
-									<h3>Bold vs T1w classifier</h3>
-								</header>
-								<p>Classify MRI imaging as bold or T1w.</p>
-							</a>
-						</article>
+  <div class="card">
+    <div class="design-title">3. AI-Augmented Failure Classification Engine</div>
+    <p>
+      Developed an LLM-powered classification engine that analyzes failures, clusters patterns, and suggests root causes. 
+      Integrated with CI pipelines for continuous learning and triage automation.
+    </p>
+  </div>
 
-						<article>
-						  <a class="image featured" href="https://htmlpreview.github.io/?https://github.com/SetCodesToFire/Number-detector/blob/master/Number-detector.html">
-								<img src="images/pic02.jpeg" alt="" />
-								<header>
-									<h3>Number-detector</h3>
-								</header>
-								<p>A Multilayer Convolutional Neural Network for the MNIST data</p>
-							</a>
-						</article>
+  <div class="card">
+    <div class="design-title">4. Scalable API Test Harness for Microservices</div>
+    <p>
+      Architected a test harness capable of running parallel contract tests, chaos scenarios, data-driven validation, 
+      and real-time metrics aggregation using Prometheus + Grafana.
+    </p>
+  </div>
 
-						<article>
-							<a class="image featured" href="https://htmlpreview.github.io/?https://github.com/SetCodesToFire/3D-CNN-LungCancerAnalysis/blob/master/3D-CNN_LUNGS.html">
-								<img src="images/pic04.jpeg" alt="" />
-								<header>
-									<h3>3D-CNN-LungCancerAnalysis</h3>
-								</header>
-								<p>The project deals with the identification of lung cancer</p>
-							</a>
-						</article>
+  <div class="card">
+    <div class="design-title">5. Cloud-Native Automation Grid</div>
+    <p>
+      Built a Kubernetes‑based Selenium/Grid cluster with auto-scaling nodes, service mesh routing, and on-demand test environments.
+    </p>
+  </div>
 
-						<article>
-							<a class="image featured" href="https://htmlpreview.github.io/?https://github.com/SetCodesToFire/RhinoNewsApp/blob/master/index.html">
-								<img src="images/pic05.jpeg" alt="" />
-								<header>
-									<h3>Rhino News App</h3>
-								</header>
-								<p>A testing rhino news web application that demonstrate responsive web design.</p>
-							</a>
-						</article>
+  <div class="card">
+    <div class="design-title">6. Intelligent Test Impact Analysis System</div>
+    <p>
+      Designed a system that maps code changes to test suites using dependency graphs + ML predictions, enabling selective execution 
+      and reducing test cycles by 40–60%.
+    </p>
+  </div>
 
-						<article>
-							<a class="image featured" href="https://htmlpreview.github.io/?https://github.com/SetCodesToFire/boston_housing/blob/master/report.html">
-								<img src="images/pic01.jpeg" alt="" />
-								<header>
-									<h3>Housing Price Prediction</h3>
-								</header>
-								<p>A regression machine learning model that detects the price of a house using the boston_housing data.</p>
-							</a>
-						</article>
+  <h2>AI Enthusiasm</h2>
+  <div class="card">
+    <p>
+      I actively integrate AI into engineering workflows: autonomous test agents, natural-language-driven frameworks, dynamic data 
+      generation, and predictive stability scoring. My goal is to build next-generation automation ecosystems where tests adapt, heal, 
+      and evolve using AI.
+    </p>
+  </div>
 
-						<article>
-							<a class="image featured" href="https://htmlpreview.github.io/?https://github.com/SetCodesToFire/titanic_survival_exploration/blob/master/titanic_survival_exploration.html">
-								<img src="images/pic06.jpeg" alt="" />
-								<header>
-									<h3>Titanic Survival Exploration</h3>
-								</header>
-								<p>Predict the chance of survival of the passenger on Titanic based on Decision Tree.</p>
-							</a>
-						</article>
+</section>
 
-					</div>
-				</section>
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<img src="images/pic10.jpg" alt="" height="200px">
-							<p>I am a Machine learning practitioner, deep thinker and an artificial intelligence researcher.<p>
-							<p>I want a fully automated society where everything from first to the last branch of the tree will be done with the help of machine learning.
-								So imagine a world where everything from growing crops ,to generating electricity, to managing water resources as well as flying you from one
-								place to another is all done using the power of machine learning and AI.</p>
-							<p>AI will help us use human knowledge and evolve more in domains that were never ever looked before.</p>
-							<strong style="color:white">AI Love</strong>
+<div class="footer">© Rohan – Automation Systems Architect</div>
 
-						</div>
-						<hr />
-						<div class="row">
-							<div class="12u">
-
-								<!-- Contact -->
-									<section class="contact">
-										<header>
-											<h3>Get in touch with me</h3>
-										</header>
-
-										<ul class="icons">
-											<li><a href="https://twitter.com/rohangoyal1997" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="https://github.com/setCodesToFire" class="icon fa-github"><span class="label">Github</span></a></li>
-											<li><a href="https://www.instagram.com/set_codes_to_fire/?hl=en" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="https://www.linkedin.com/in/rohan-goyal-103351137/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-										</ul>
-									</section>
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.onvisible.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
